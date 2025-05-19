@@ -1,0 +1,25 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title #{tittle}
+        link(rel="stylesheet", href="./css/reg.css")
+
+    body 
+        .form-container 
+            h1 Welcome Back! 
+            p Login to access your acount 
+            .row 
+                input(type="text" required="")
+                label Username or Email 
+            .row 
+                input(type="text" required="")
+                label Password
+
+            .row 
+                button(type="submit") Login 
+            p Not a Member? 
+                a(href="./register") Signup Here
+                br
+                a(href="#") Forget password?

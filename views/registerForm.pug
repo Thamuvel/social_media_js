@@ -1,0 +1,31 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="./css/reg.css")
+        link(rel="icon", href="./img/icon.jpg", type="image/x-icon")
+        title #{tittle} 
+    body 
+        .form-container
+            h1 Join us Today!
+            p Sign Up now to become a member
+            .row 
+                input(type="text" required="")
+                label Name 
+            .row 
+                input(type="text" required="")
+                label Email 
+            .row 
+                input(type="text" required="")
+                label Password 
+            .row 
+                input(type="text" required="")
+                label Confirm password
+            .row 
+                 button(type="submit") Sign Up
+            p Already member? 
+                a(href="./login") Login Here
+
+           
+            
